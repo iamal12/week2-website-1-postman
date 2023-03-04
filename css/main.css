@@ -1,0 +1,132 @@
+.dropdown-menu.columns-3 {
+	min-width: 900px;
+}
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+section{
+    margin-left: 140px;
+    margin-right: 240px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.dropdown-menu li a,h6 {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.dropdown-menu {
+	white-space: nowrap;
+}
+
+.first-slider{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div-left-part{
+   
+}
+
+.first-slider .div-left-part .form-control {
+    height: 50px;
+    width: fit-content;
+    border-color: #ff6c37;
+    border-radius:0;
+    }
+
+  .subscribe .div-left-part  .form-control {
+        height: 50px;
+        width: fit-content;
+        border-color: #ff6c37;
+        border-radius:0;
+        }
+
+.first-slider .div-left-part.form-control:focus {
+        box-shadow: none;
+        border: 2px solid #243c4f;
+        }
+
+        .subscribe .div-left-part .btn {
+            min-height: 50px; 
+            border-radius:0;
+            background: #ff6c37;
+            color: #fff;
+            font-weight:600;
+}
+
+.first-slider .div-left-part .btn {
+            min-height: 50px; 
+            border-radius:0;
+            background: #ff6c37;
+            color: #fff;
+            font-weight:600;
+}
+.section-2{
+    background-color: whitesmoke;
+    margin-block-end: inherit;
+}
+.api-first {
+    background-color: whitesmoke;
+    margin-block-end: inherit;
+}
+.subscribe{
+    background-color: whitesmoke;
+    margin-block-end: inherit;
+
+}
+
+.img-2{
+    width: 350px;
+  height: 350px;
+  float: right;
+  margin: -150px 40px 0 0;
+}
+
+.flex {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "area1 area2 area3 area4" "area1 area2 area3 area4" "area1 area2 area3 area4" "area1 area2 area3 area4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+  }
+
+  .flex_test1,
+.flex_test2,
+.flex_test3,
+.flex_test4 {
+  background-color: white;
+  box-shadow: -0.5px -0.5px 5px 0.5px #868686;
+  padding-left: 5px;
+  margin-right: 30px;
+}
+
+.button {
+    margin: 44px 47%;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #868686;
+  }
